@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node src/server.js",
+      "build": "echo 'Skipping build step...'",
+  "vercel-build": "echo 'Custom build step if needed...'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
